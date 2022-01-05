@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网云穿</title>
+</head>
+<body style="text-align: center;">
+    <img src="http://xiaomy.net/assets/images/logo.png" style="margin-top: 10%;"/>
+    <p>您当前为网云穿免费隧道，无法直接使用域名访问,且不支持SSL</p>
+    <p>请修改隧道为<b>TCP模式</b>，并使用二级域名加外网端口号形式访问</p>
+</body>
+</html>
