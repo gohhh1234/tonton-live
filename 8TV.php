@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://www.dailymotion.com/player/metadata/video/kdFzSYy1bHxrForBrar?embedder=https%3A%2F%2Fwww.xtra.com.my%2Flive-tv&referer=&";
+$url = "https://headend-api.tonton.com.my/v210/api/playback.class.api.php/GOgetLiveConfig/378/1/6420325?format=json&appID=TONTON&rate=WIFIHIGH&plt=web&manufacturer=chrome&serviceID=default&model=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/131.0.0.0%20Safari/537.36&firmwareVersion=10&appVersion=6.0.30&deviceOS=PCBROWSER&limitAdTracking=0";
 
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
